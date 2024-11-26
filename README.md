@@ -1,4 +1,4 @@
-# GenAi Web App Using Nextjs (Using Ollama llama3.2, qwen2.5-coder and nomic-embed-text)
+# GenAi Web App Using Nextjs (Using Ollama llama3.2, codellama and nomic-embed-text)
 - 
 ## A. Using Ollama with Llama 3.2
 
@@ -31,7 +31,7 @@ Before you can use Llama 3.2, download the model by running:
 
 ```bash
 ollama pull llama3.2
-ollama pull qwen2.5-coder
+ollama pull codellama
 ollama pull nomic-embed-text
 ```
 
@@ -86,4 +86,22 @@ Run the development server:
   ```
 
 - By default, the server runs on [http://localhost:3000](http://localhost:3000).
+---
+## Functionality
+- The webpage has 4 functionalities: Text Generation, Chatbot, RAG and Code Generation.
+- Text Generation uses llama3.2 model to answer questions.
+- Chatbot uses llama3.2 model to chat with the user.
+- RAG uses nomic-embed-text for embedding and llama3.2 for content searching. Currently only support txt files content.
+- Code Generation uses codellama model to generate code. The model qwen2.5-coder is also supported.
+---
+## Sample page screenshot
+![Landing Page](./public/sample_pg_landing.png)
+
+![Text Generation](./public/sample_pg_text_gen.png)
+
+![Chatbot](./public/sample_pg_chat.png)
+
+![RAG](./public/sample_pg_rag.png)
+
+![Code Generation](./public/sample_pg_code_gen.png)
 ---

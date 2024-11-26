@@ -11,10 +11,9 @@ export default function Home() {
         </p>
         <ul className="list-disc pl-5 text-gray-600 mb-8">
           <li>Text Generation: Generate human-like text based on prompts.</li>
-          <li>Image Generation: Create images from textual descriptions.</li>
-          <li>Code Generation: Generate code snippets based on requirements.</li>
           <li>Chatbot: Interact with a chatbot for various queries.</li>
-          <li>RAG: Upload documents and ask questions to get contextually relevant answers.</li>
+          <li>RAG: Upload txt documents and ask questions to get contextually relevant answers.</li>
+          <li>Code Generation: Generate code snippets based on requirements.</li>
         </ul>
       </div>
     )

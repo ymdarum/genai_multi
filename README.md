@@ -63,8 +63,6 @@ The server must be running for queries to work.
   npm -v
   ```
 ### 2. Clone the repo and Navigate to Your Project
-
-Move into the project directory:
 ```bash
 git clone https://github.com/ymdarum/genai_multi.git
 cd genai_multi

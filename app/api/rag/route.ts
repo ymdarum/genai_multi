@@ -8,14 +8,14 @@ import { RecursiveCharacterTextSplitter } from 'langchain/text_splitter'
 // Initialize Ollama clients with correct model names
 const embeddings = new OllamaEmbeddings({
   model: "nomic-embed-text",  // This is correct for embeddings
-  baseUrl: process.env.OLLAMA_API_URL,
+  baseUrl: "http://localhost:11434/",
   requestOptions: {
     // Remove headers as it is not defined in the type
   }
 })
 
 const chatModel = new ChatOllama({
-  baseUrl: process.env.OLLAMA_API_URL,
+  baseUrl: "http://localhost:11434/",
   model: "llama3.2",
   temperature: 0.3
 })

@@ -51,11 +51,11 @@ export default function RootLayout({
                     Code Generation
                   </Link>
                 </li>                
-                <li>
+                {/* <li>
                   <Link href="/image-generation" className="block py-2 px-4 text-gray-700 hover:bg-gray-200 rounded">
                     Image Generation
                   </Link>
-                </li>                
+                </li>                 */}
               </ul>
             </div>
           </nav>

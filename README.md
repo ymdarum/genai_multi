@@ -62,10 +62,11 @@ The server must be running for queries to work.
   node -v
   npm -v
   ```
-### 2. Navigate to Your Project
+### 2. Clone the repo and Navigate to Your Project
 
 Move into the project directory:
 ```bash
+git clone https://github.com/ymdarum/genai_multi.git
 cd genai_multi
 ```
 ### 3. Set Up Your Next.js Project

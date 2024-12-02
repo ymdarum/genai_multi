@@ -1,5 +1,6 @@
 # GenAi Web App Using Nextjs (Using Ollama llama3.2, codellama and nomic-embed-text)
-- 
+- This repo is to demonstrate a use case for using local llm that runs entirely in local development.
+  
 ## A. Using Ollama with Llama 3.2
 
 This guide provides step-by-step instructions to set up and use the Ollama CLI.
